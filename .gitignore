@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+
+# PyCharm/IDEA
+.idea/
+
+# CSV or data files (optional)
+*.csv
