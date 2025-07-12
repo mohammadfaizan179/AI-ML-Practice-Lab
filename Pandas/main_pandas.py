@@ -8,10 +8,10 @@ from Pandas.insert_delete import insert_delete
 
 
 def practice_pandas():
-    # data_frame()
+    data_frame()
     # arithmatic_operations()
     # insert_delete()
     # work_with_csv()
     # drop_fill()
     # replace_interpolate()
-    merge_concatenate()
+    # merge_concatenate()

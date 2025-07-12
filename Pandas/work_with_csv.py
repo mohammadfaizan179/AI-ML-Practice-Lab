@@ -12,18 +12,18 @@ def work_with_csv():
     )
     # print(df1)
 
-    # df1.to_csv("csv_2.csv", index=False, header=["a", "b", "c"])
+    # df1.to_csv("Datasets/csv_2.csv", index=False, header=["a", "b", "c"])
 
-    df2 = pd.read_csv("csv_2.csv")
+    df2 = pd.read_csv("Datasets/csv_2.csv")
     print(df2)
     print()
 
-    # df2 = pd.read_csv("csv_2.csv", nrows=2)
-    # df2 = pd.read_csv("csv_2.csv", nrows=20, usecols=[0])
-    # df2 = pd.read_csv("csv_2.csv", skiprows=2)
-    # df2 = pd.read_csv("csv_2.csv", header=2)
-    # df2 = pd.read_csv("csv_2.csv", names=["col1", "col2", "col3"])
-    # df2 = pd.read_csv("csv_2.csv", dtype={"a": "float"})
+    # df2 = pd.read_csv("Datasets/csv_2.csv", nrows=2)
+    # df2 = pd.read_csv("Datasets/csv_2.csv", nrows=20, usecols=[0])
+    # df2 = pd.read_csv("Datasets/csv_2.csv", skiprows=2)
+    # df2 = pd.read_csv("Datasets/csv_2.csv", header=2)
+    # df2 = pd.read_csv("Datasets/csv_2.csv", names=["col1", "col2", "col3"])
+    # df2 = pd.read_csv("Datasets/csv_2.csv", dtype={"a": "float"})
     # print(df2)
 
     # print(df2.index)

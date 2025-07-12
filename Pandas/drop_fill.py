@@ -3,7 +3,7 @@ import pandas as pd
 
 def drop_fill():
 
-    df = pd.read_csv("csv_2.csv")
+    df = pd.read_csv("Datasets/csv_2.csv")
 
     print(df.dropna(
         axis=0,

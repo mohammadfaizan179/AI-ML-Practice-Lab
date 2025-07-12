@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def replace_interpolate():
-    df = pd.read_csv("csv_2.csv")
+    df = pd.read_csv("Datasets/csv_2.csv")
 
     # print(df.replace(
     #     to_replace="male",

@@ -43,5 +43,20 @@ def data_frame():
     # print(df6)
 
     s1 = pd.Series([1, 2, 3, 4, 5])
-    print(s1)
+    # print(s1)
+
+    df = pd.read_csv("Datasets/csv_3.csv")
+    # print(df.head())
+    # print(df.tail())
+    # print(df.columns)
+    # print(df.shape)
+    # print(df.info())
+    # print(df.describe())
+    # print(df.loc[1])
+    # print(df.loc[0, "name"])
+    # print(df.iloc[1])
+
+    # Filter
+    # print(df[df["age"] >= 30])  # Using Boolean indexing
+    # print(df.query("age > 30"))  # Using Boolean indexing
 
