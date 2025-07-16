@@ -58,5 +58,5 @@ def data_frame():
 
     # Filter
     # print(df[df["age"] >= 30])  # Using Boolean indexing
-    # print(df.query("age > 30"))  # Using Boolean indexing
+    # print(df.query("age > 30"))  # Using string query
 
