@@ -50,7 +50,7 @@ def main(image_path, k, output_path):
 
 # Example usage
 if __name__ == "__main__":
-    image_path = "input_image.jpg"      # Path to your image
-    output_path = "compressed_image.jpg"
+    image_path = "../../images/cat.jpg"      # Path to your image
+    output_path = "../../images/cat_compressed.jpg"
     k = 50  # rank to retain; smaller = more compression
     main(image_path, k, output_path)
